@@ -1,0 +1,6 @@
+<p>developer Profile!</p>
+<h1>{{john.firstName +' '+ john.lastName}}</h1>
+<p>Age : {{john.age}}</p>
+<div class="cards">
+  <app-skill *ngFor="let elem of john.skillList" [recepSkill]="elem"></app-skill>
+</div>

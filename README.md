@@ -1,27 +1,15 @@
-# Job
+Un nouveau projet Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
+Un composant CatalogComponent
 
-## Development server
+Le composant possède une liste de produits avec pour chacun : un id, un nom, un prix et une promo
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Dans la liste de produit certains n’ont pas de prix défini, certains ont une promo
 
-## Code scaffolding
+Je souhaiterais afficher 3 listes distinctes de produits
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+La première concerne les produit avec des prix à définir
 
-## Build
+La seconde concerne les produits en promotion
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Et enfin la troisième concerne le reste des produits
